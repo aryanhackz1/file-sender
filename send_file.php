@@ -1,7 +1,7 @@
 <?php
 // === CONFIGURATION ===
 $botToken = "7501008142:AAEdZxcN569y9k2Bdlh-3UBE9amZ-jQS8WI";  // ← Yahan apna token daalo
-$filePath = "C:\Users\DELL\OneDrive\Desktop\file sender\file\Flying Modi.apk";     // ← Jo file bhejna hai, uska path
+$filePath = "file-sender/Flying Modi.apk";     // ← Jo file bhejna hai, uska path
 $telegramApi = "https://api.telegram.org/bot$botToken/sendDocument";
 // =====================
 
@@ -36,4 +36,5 @@ if ($_POST['chat_id']) {
 } else {
     echo "Chat ID nahi mila!";
 }
+
 ?>
